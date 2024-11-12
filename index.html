@@ -12,6 +12,15 @@
             background-color: rgba(255, 0, 128, 0.151); /* 0.12 é a opacidade do fundo */}
         .bg-custom2 {
             background-color: rgba(255, 255, 255, 0.096); /* 0.12 é a opacidade do fundo */}
+        @media (max-width: 768px) { /* Aplica apenas para telas menores */
+            #card67315cf28ee2f .carousel-inner {
+                aspect-ratio: 3 / 5; /* Define a proporção de 3:4 */
+            }
+            #card67315cf28ee2f img {
+                height: 100%; /* Faz com que a imagem preencha toda a altura da div */
+                object-fit: cover; /* Garante que a imagem mantenha uma boa aparência */
+            }
+        }
     </style>
 
     <body class="p-3 text-bg-dark">
